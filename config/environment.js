@@ -31,11 +31,6 @@ module.exports = function (environment) {
           label: 'Home',
           route: 'index',
         },
-        {
-          label: 'Built by Chris Manson',
-          route: 'page',
-          id: 'chris-manson',
-        },
       ],
     },
   };
