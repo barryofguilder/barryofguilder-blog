@@ -21,9 +21,10 @@ module.exports = function (environment) {
     },
 
     blog: {
-      title: 'empress-blog',
-      description: 'Static Blog System - Built with Ember',
+      title: 'Barry of Guilder',
+      description: "Just some ramblings and things I've learned.",
       coverImage: '/images/blog-cover.jpg',
+      //logo: '/images/barryofguilder.jpg',
 
       navigation: [
         {
