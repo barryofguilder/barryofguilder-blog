@@ -18,6 +18,7 @@
     "lint:hbs:fix": "ember-template-lint . --fix",
     "lint:js": "eslint . --cache",
     "lint:js:fix": "eslint . --fix",
+    "prettier": "prettier --write \"**/*.{hbs,html,js,ts}\"",
     "start": "ember serve",
     "test": "concurrently \"npm:lint\" \"npm:test:*\" --names \"lint,test:\"",
     "test:ember": "ember test"
@@ -39,6 +40,7 @@
     "ember-cli-app-version": "^6.0.0",
     "ember-cli-babel": "^7.26.11",
     "ember-cli-dependency-checker": "^3.3.1",
+    "ember-cli-fastboot": "^4.1.0",
     "ember-cli-htmlbars": "^6.2.0",
     "ember-cli-inject-live-reload": "^2.1.0",
     "ember-cli-sri": "^2.1.1",
@@ -53,6 +55,8 @@
     "ember-source": "~4.11.0",
     "ember-template-lint": "^5.6.0",
     "ember-welcome-page": "^7.0.1",
+    "empress-blog": "^4.1.0",
+    "empress-blog-casper-template": "^4.3.0",
     "eslint": "^7.32.0",
     "eslint-config-prettier": "^8.6.0",
     "eslint-plugin-ember": "^11.4.7",
@@ -60,12 +64,16 @@
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-qunit": "^7.3.4",
     "loader.js": "^4.7.0",
+    "prember": "^1.1.1",
     "prettier": "^2.8.4",
     "qunit": "^2.19.4",
     "qunit-dom": "^2.0.0",
     "tracked-built-ins": "^3.1.1",
     "webpack": "^5.75.0"
   },
+  "fastbootDependencies": [
+    "crypto"
+  ],
   "ember": {
     "edition": "octane"
   },
