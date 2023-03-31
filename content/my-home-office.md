@@ -3,7 +3,7 @@ title: My Home Office
 image: /images/my-home-office/end_result_03-2.jpg
 authors:
   - jason
-date: Wed Sep 27 2023 11:44:49 GMT-0400 (Eastern Daylight Time)
+date: Wed Sep 27 2017 11:44:49 GMT-0400 (Eastern Daylight Time)
 tags:
   - office
 ---
