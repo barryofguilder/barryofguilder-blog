@@ -4,7 +4,7 @@ id: jason
 image: /images/jason.jpg
 coverImage:
 website: https://barryofguilder.com
-twitter: barryofguilder
+twitter: "@barryofguilder"
 facebook:
 location: Ringgold, GA
 ---
