@@ -1,11 +1,11 @@
 {
   "name": "barryofguilder-blog",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "private": true,
-  "description": "Small description for barryofguilder-blog goes here",
-  "repository": "",
+  "description": "The blog of barryofguilder.",
+  "repository": "https://github.com/barryofguilder/barryofguilder-blog.git",
   "license": "MIT",
-  "author": "",
+  "author": "Jason Barry <jbarry@hey.com>",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -66,10 +66,13 @@
     "tracked-built-ins": "^3.1.1",
     "webpack": "^5.75.0"
   },
-  "engines": {
-    "node": "14.* || 16.* || >= 18"
-  },
   "ember": {
     "edition": "octane"
+  },
+  "engines": {
+    "node": "18.15.x"
+  },
+  "volta": {
+    "node": "18.15.0"
   }
 }
